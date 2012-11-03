@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f9f9f9;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	width: 1095px;
+	margin: 0 auto;
+	position: relative;
+}
+
+div#slideshow {
+	width: 1083px;
+	height: 518px;
+	padding: 15px 0 0 12px;
+	position: relative;
+	z-index: 5;
+	overflow: scroll;
+}
+
+div#slideshow ul#nav {
+	display: none;
+	list-style: none;
+	position: relative;
+	top: 210px;
+	z-index: 15;
+}
+
+div#slideshow ul#nav li#anterior {
+	float: left;
+	margin: 0 0 0 40px;
+}
+
+div#slideshow ul#nav li#siguiente {
+	float: right;
+	margin: 0 50px 0 0;
+}
+
+div#slideshow ul#nav li a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+}
+
+div#slideshow ul#nav li#anterior a {
+	background-image: url(prev.png);
+}
+
+div#slideshow ul#nav li#siguiente a {
+	background-image: url(next.png);
+}
+
+div#slideshow ul#slides {
+	list-style: none;
+}
+
+div#slideshow ul#slides li {
+	margin: 0 0 20px 0;
+}
+
+
+
